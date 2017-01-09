@@ -1,5 +1,8 @@
 class PagesController < ApplicationController
 
+  def index
+    puts "index"
+  end
 
   def authorization
     binding.pry
